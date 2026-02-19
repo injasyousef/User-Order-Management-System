@@ -7,11 +7,11 @@ A full-stack web application built with:
 - **Database:** MySQL (or H2 for development)
 
 **ERD**
----
+
 
 <img width="681" height="211" alt="ERD" src="https://github.com/user-attachments/assets/12b6caf0-a4a7-40c0-8130-0961bc4cc9e8" />
 
-
+---
 The system allows users to:
 
 - Register and authenticate (JWT-based authentication)
