@@ -114,7 +114,7 @@ Backend runs at:
 http://localhost:9090
 ```
 
-Swagger UI (if enabled):
+Swagger UI:
 
 ```
 http://localhost:9090/swagger-ui.html
