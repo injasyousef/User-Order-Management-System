@@ -27,7 +27,7 @@ The system allows users to:
 ## 1️⃣ Clone the Repository
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/injasyousef/User-Order-Management-System
 cd user-order-management-system
 ```
 
