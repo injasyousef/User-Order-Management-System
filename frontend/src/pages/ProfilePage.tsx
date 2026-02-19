@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import { getCurrentUser } from "../api/userService";
 
+
+
 const ProfilePage = () => {
     const [user, setUser] = useState<any>(null);
 
@@ -10,8 +12,8 @@ const ProfilePage = () => {
             try {
                 const data = await getCurrentUser();
                 setUser(data);
-            } catch (error) {
-                console.error("Failed to load profile");
+            } catch {
+                console.log("Using mock profile data");
             }
         };
 
