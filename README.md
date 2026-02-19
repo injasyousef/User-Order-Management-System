@@ -7,7 +7,7 @@ A full-stack web application built with:
 - **Database:** MySQL (or H2 for development)
 
 **ERD**
-
+---
 
 <img width="681" height="211" alt="ERD" src="https://github.com/user-attachments/assets/12b6caf0-a4a7-40c0-8130-0961bc4cc9e8" />
 
@@ -39,7 +39,7 @@ cd user-order-management-system
 
 - Java 17+
 - Maven
-- MySQL (or H2)
+- MySQL
 
 ---
 
@@ -78,7 +78,7 @@ with your actual values.
 
 # 🗄 Database Setup
 
-## Option 1: MySQL (Recommended)
+## MySQL
 
 1. Open MySQL.
 2. Create the database:
@@ -97,21 +97,7 @@ spring.jpa.hibernate.ddl-auto=update
 
 ---
 
-## Option 2: H2 (Development Only)
 
-Replace database configuration with:
-
-```properties
-spring.datasource.url=jdbc:h2:mem:testdb
-spring.datasource.driverClassName=org.h2.Driver
-spring.datasource.username=sa
-spring.datasource.password=
-
-spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
-spring.h2.console.enabled=true
-```
-
----
 
 # ▶️ Run Backend
 
